@@ -1,3 +1,4 @@
 {"ts": "2026-06-03T06:48:05Z", "event": "stage_start", "stage": "wiki-build", "pipeline": "youtube-research-wiki"}
 {"ts": "2026-06-03T06:48:44Z", "event": "stage_done", "stage": "wiki-build", "pipeline": "youtube-research-wiki", "duration_s": 39}
 {"ts": "2026-06-03T06:48:46Z", "event": "stage_start", "stage": "tg-notify", "pipeline": "youtube-research-wiki", "note": "final summary stage"}
+{"ts": "2026-06-03T06:48:48Z", "event": "stage_done", "stage": "tg-notify", "pipeline": "youtube-research-wiki", "duration_s": 43}
