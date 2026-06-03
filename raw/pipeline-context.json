@@ -68,5 +68,29 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780469285",
+    "start_time": "2026-06-03T06:48:05Z",
+    "end_time": "2026-06-03T06:48:43Z",
+    "duration_s": 38,
+    "llm_calls": 7,
+    "pages_created_total": 80,
+    "pages_new_this_run": 5,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/情感保障.md",
+      "wiki/concepts/情感状态理解.md",
+      "wiki/concepts/排他性奉献.md",
+      "wiki/concepts/绝对忠诚.md",
+      "wiki/sources/承诺与忠诚-Rick-Astley-Never-Gonna-Give-You-Up-深度简报.md"
+    ],
+    "sources": 4,
+    "entities": 2,
+    "concepts": 74,
+    "comparisons": 0,
+    "prompt_tokens": 7657,
+    "completion_tokens": 8110,
+    "status": "success"
   }
 }
