@@ -1,0 +1,9 @@
+instance_id: wiki-sop-210-registry-smoke
+sop_type: youtube-research-wiki
+repo: skkeoriw/wiki-sop-210-registry-smoke
+runtime_id: youtube-wiki
+channel_name: youtube-wiki
+channel_url: https://youtube-wiki.chxyka.ccwu.cc
+spi_base_url: https://youtube-wiki.chxyka.ccwu.cc/api/sop
+language: zh-CN
+stage_c_model: gemini-2.5-flash-lite
