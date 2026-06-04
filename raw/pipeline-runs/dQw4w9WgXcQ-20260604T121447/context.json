@@ -13,34 +13,39 @@
     "meta_file": "raw/youtube-metadata/dQw4w9WgXcQ.json"
   },
   "stage_b": {
-    "run_id": "direct-notebooklm-research-1780575294",
-    "start_time": "2026-06-04T12:14:54Z",
-    "end_time": "2026-06-04T12:15:56Z",
-    "duration_s": 62,
-    "status": "success",
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 0,
-    "processed_urls": [
-      "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    ],
-    "output_files": [
-      "raw/notebooklm-analysis/Never-Gonna-Give-You-Up-核心情感承诺与关系动态分析简报.md"
-    ],
-    "generated_files": [
-      {
-        "type": "report",
-        "path": "/tmp/notebooklm_processor/1780575344_report-1780575338.md"
-      }
-    ],
     "source_metadata": {
-      "video_id": "dQw4w9WgXcQ",
       "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
-      "author": "Rick Astley",
-      "published_at": "2009-10-25T06:57:33Z",
       "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
-      "source_type": "youtube"
-    }
+      "author": "Rick Astley"
+    },
+    "output_files": [
+      "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
+    ]
+  },
+  "stage_deep_research": {
+    "run_id": "direct-youtube-deep-research-1780575294",
+    "job_id": "b113f6a7-fcbd-4544-a833-448297ab542c",
+    "status": "completed",
+    "start_time": "",
+    "end_time": "2026-06-04T12:16:41Z",
+    "output_files": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T121447/analysis.md",
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T121447/status.json",
+      "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
+    ],
+    "worker_files": {
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b113f6a7-fcbd-4544-a833-448297ab542c/transcript?format=txt&translated=1"
+    },
+    "chunks_total": 1,
+    "chunks_done": 1
   }
 }
