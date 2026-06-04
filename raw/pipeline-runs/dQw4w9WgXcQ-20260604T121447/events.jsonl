@@ -1,2 +1,7 @@
 {"ts": "2026-06-04T12:14:50Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "youtube-fetch", "run_id": "direct-1780575289", "status": "running", "error": ""}
 {"ts": "2026-06-04T12:14:53Z", "event": "node_done", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "youtube-fetch", "run_id": "direct-1780575289", "status": "done", "error": ""}
+{"ts": "2026-06-04T12:14:54Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "notebooklm-research", "run_id": "direct-notebooklm-research-1780575294", "status": "running", "error": ""}
+{"ts": "2026-06-04T12:14:54Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "youtube-deep-research", "run_id": "direct-youtube-deep-research-1780575294", "status": "running", "error": ""}
+{"ts": "2026-06-04T12:14:55Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "youtube-deep-research", "run_id": "direct-youtube-deep-research-1780575294", "status": "running", "error": ""}
+{"ts": "2026-06-04T12:14:55Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "notebooklm-research", "run_id": "direct-notebooklm-research-1780575294", "status": "running", "error": ""}
+{"ts": "2026-06-04T12:15:58Z", "event": "node_done", "pipeline_id": "dQw4w9WgXcQ-20260604T121447", "node_id": "notebooklm-research", "run_id": "direct-notebooklm-research-1780575294", "status": "done", "error": ""}
