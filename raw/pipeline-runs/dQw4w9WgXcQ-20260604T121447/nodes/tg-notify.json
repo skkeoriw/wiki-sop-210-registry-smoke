@@ -2,13 +2,13 @@
   "pipeline_id": "dQw4w9WgXcQ-20260604T121447",
   "node_id": "tg-notify",
   "run_id": "direct-wiki-build-1780575359",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "wiki-build"
   ],
   "started_at": "2026-06-04T12:16:54Z",
-  "finished_at": "",
+  "finished_at": "2026-06-04T12:16:57Z",
   "inputs": {
     "index": "wiki-build.outputs.index"
   },
@@ -38,10 +38,29 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "telegram_message": [
+      "logs/pipeline-runs/pipe-direct-wiki-build-1780575359.json"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "015fa2bdb91e44f4",
+      "producer": "tg-notify",
+      "output": "telegram_message",
+      "type": "file",
+      "format": "json",
+      "path": "logs/pipeline-runs/pipe-direct-wiki-build-1780575359.json",
+      "title": "pipe-direct-wiki-build-1780575359.json",
+      "size": 3827,
+      "mime_type": "application/json",
+      "tags": [],
+      "metadata": {},
+      "resolution": "recorded"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
@@ -49,5 +68,5 @@
     "note": "final summary stage"
   },
   "error": "",
-  "updated_at": "2026-06-04T12:16:54Z"
+  "updated_at": "2026-06-04T12:16:57Z"
 }
