@@ -2,13 +2,13 @@
   "pipeline_id": "dQw4w9WgXcQ-20260604T121447",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780575359",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-04T12:15:59Z",
-  "finished_at": "",
+  "finished_at": "2026-06-04T12:16:52Z",
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -34,7 +34,9 @@
     "reports": [
       "raw/notebooklm-analysis/Never-Gonna-Give-You-Up-核心情感承诺与关系动态分析简报.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T121447/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -46,10 +48,121 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/关系动态.md",
+      "wiki/concepts/情感联结.md",
+      "wiki/concepts/永恒性.md",
+      "wiki/concepts/行为模式.md",
+      "wiki/concepts/被背叛.md",
+      "wiki/sources/Never-Gonna-Give-You-Up-核心情感承诺与关系动态分析简报.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 2113,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "56dcd265cb4fcd88",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/关系动态.md",
+      "title": "关系动态.md",
+      "size": 3759,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "e85ceb60cd21362f",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感联结.md",
+      "title": "情感联结.md",
+      "size": 3068,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "c432adcb02af393a",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/永恒性.md",
+      "title": "永恒性.md",
+      "size": 3912,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "6487a0a5dae5d87e",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/行为模式.md",
+      "title": "行为模式.md",
+      "size": 4626,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "6a25c0f4ead30c30",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/被背叛.md",
+      "title": "被背叛.md",
+      "size": 3589,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "46c04499d74bc590",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/Never-Gonna-Give-You-Up-核心情感承诺与关系动态分析简报.md",
+      "title": "Never-Gonna-Give-You-Up-核心情感承诺与关系动态分析简报.md",
+      "size": 6920,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
@@ -57,5 +170,5 @@
     "started_by": "notebooklm-research"
   },
   "error": "",
-  "updated_at": "2026-06-04T12:15:59Z"
+  "updated_at": "2026-06-04T12:16:52Z"
 }
