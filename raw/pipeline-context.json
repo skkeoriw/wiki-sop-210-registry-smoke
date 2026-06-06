@@ -47,5 +47,25 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780774281",
+    "start_time": "2026-06-06T19:31:22Z",
+    "end_time": "2026-06-06T19:31:52Z",
+    "duration_s": 30,
+    "llm_calls": 3,
+    "pages_created_total": 87,
+    "pages_new_this_run": 1,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/sources/关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析.md"
+    ],
+    "sources": 6,
+    "entities": 2,
+    "concepts": 79,
+    "comparisons": 0,
+    "prompt_tokens": 4877,
+    "completion_tokens": 9890,
+    "status": "success"
   }
 }

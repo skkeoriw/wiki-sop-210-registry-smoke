@@ -1,11 +1,12 @@
 # YouTube Video Research Wiki
-Last updated: 2026-06-04
-Total pages: 6
+Last updated: 2026-06-06
+Total pages: 1
 
 ## Sources
 - [[承诺与忠诚-Rick-Astley-Never-Gonna-Give-You-Up-深度简报]]
 - [[rick-astley-never-gonna-give-you-up-深度简报]]
 - [[情感承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本分析]]
+- [[关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析]]
 - [[Never-Gonna-Give-You-Up-核心情感承诺与关系动态分析简报]]
 - [[情感承诺与关系持久性简报-Rick-Astley-抒情文本深度分析]]
 

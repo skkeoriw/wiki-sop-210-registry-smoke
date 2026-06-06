@@ -6,17 +6,962 @@
   "min_importance_score": 0.65,
   "pipeline_id": "dQw4w9WgXcQ-20260606T193014",
   "run_id": "direct-wiki-build-1780774281",
-  "selected_sources": [],
+  "selected_sources": [
+    {
+      "title": "关系承诺与忠诚度深度简报：基于《Never Gonna Give You Up》文本的分析",
+      "slug": "关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析"
+    }
+  ],
   "selected_entities": [],
   "selected_concepts": [],
   "selected_mindmaps": [],
-  "skipped_candidates": [],
-  "estimated_llm_calls": 0,
-  "actual_llm_calls": 0,
-  "prompt_tokens": 0,
-  "completion_tokens": 0,
-  "generated_pages": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "rick-astley.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全面承诺",
+      "slug": "全面承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "全面承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“全面承诺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "否定性承诺",
+      "slug": "否定式承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "否定式承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“否定性承诺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明度.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“情感透明度”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可靠性",
+      "slug": "可靠性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "可靠性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“可靠性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "忠诚度.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“忠诚度”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性",
+      "slug": "排他性承诺",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "排他性承诺.md",
+      "reason": "报告中的“排他性”是“排他性承诺”的一个核心属性，语义高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "独特性",
+      "slug": "差异化价值",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "差异化价值.md",
+      "reason": "报告中的“独特性”与“差异化价值”在关系语境下有相似含义，指提供他人无法比拟的价值。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "个人品牌可靠性",
+      "slug": "信任模型",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "信任模型.md",
+      "reason": "报告中的“个人品牌可靠性”是建立信任模型的一种表现，与信任模型概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "六大核心行为准则",
+      "slug": "忠诚的六大核心防御",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "忠诚的六大核心防御.md",
+      "reason": "报告中的“六大核心行为准则”与“忠诚的六大核心防御”在描述歌曲核心内容上高度一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "存在性承诺",
+      "slug": "坚定承诺",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "坚定承诺.md",
+      "reason": "报告中的“存在性承诺”是坚定承诺的一种具体体现，强调关系的持续存在。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "支持性承诺",
+      "slug": "情感保障",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感保障.md",
+      "reason": "报告中的“支持性承诺”旨在提供情感保障，确保在需要时提供支持。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚性承诺",
+      "slug": "绝对忠诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "绝对忠诚.md",
+      "reason": "报告中的“忠诚性承诺”直接对应“绝对忠诚”的概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "保护性承诺",
+      "slug": "情感保护",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感保护.md",
+      "reason": "报告中的“保护性承诺”即为“情感保护”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "存续性承诺",
+      "slug": "永恒性",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "永恒性.md",
+      "reason": "报告中的“存续性承诺”强调关系的永恒性，即不结束。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "诚信性承诺",
+      "slug": "诚信度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "诚信度.md",
+      "reason": "报告中的“诚信性承诺”直接对应“诚信度”的概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期了解",
+      "slug": "长期相处经验",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期相处经验.md",
+      "reason": "报告中的“长期了解”是“长期相处经验”的体现，是建立关系深度的基础。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "相互默契",
+      "slug": "默契",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "默契.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“相互默契”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "心理状态认知",
+      "slug": "心理洞察",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "心理洞察.md",
+      "reason": "报告中的“心理状态认知”属于“心理洞察”的范畴。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "博弈",
+      "slug": "游戏",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "游戏.md",
+      "reason": "报告中的“博弈”在关系语境下与“游戏”概念相近，指一种互动策略。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "公开化情感",
+      "slug": "主动情感暴露",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "主动情感暴露.md",
+      "reason": "报告中的“公开化情感”即为“主动情感暴露”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "透明化情感",
+      "slug": "情感透明化沟通",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明化沟通.md",
+      "reason": "报告中的“透明化情感”与“情感透明化沟通”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "打破僵局",
+      "slug": "识别并打破沉默",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "识别并打破沉默.md",
+      "reason": "报告中的“打破僵局”是“识别并打破沉默”的结果，两者紧密相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "共识",
+      "slug": "共同认知",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "共同认知.md",
+      "reason": "报告中的“共识”与“共同认知”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感准则",
+      "slug": "情感框架",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感框架.md",
+      "reason": "报告中的“情感准则”属于“情感框架”的范畴。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "理解",
+      "slug": "情感状态理解",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感状态理解.md",
+      "reason": "报告中的“理解”对应“情感状态理解”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "陪伴",
+      "slug": "陪伴",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "陪伴.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“陪伴”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "重复确认",
+      "slug": "持续性",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "持续性.md",
+      "reason": "报告中“反复确认”是实现“持续性”的一种方式，两者相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "核心价值观",
+      "slug": "长期价值导向",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "长期价值导向.md",
+      "reason": "报告中的“核心价值观”与“长期价值导向”在关系维护中具有相似的意义。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "禁区边界",
+      "slug": "规则",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "规则.md",
+      "reason": "报告中的“禁区边界”是“规则”的一种具体应用，用于界定行为界限。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "主动沟通",
+      "slug": "主动沟通",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "主动沟通.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“主动沟通”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "明确沟通",
+      "slug": "明确沟通意图",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "明确沟通意图.md",
+      "reason": "报告中的“明确沟通”与“明确沟通意图”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任基石",
+      "slug": "信任纽带",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "信任纽带.md",
+      "reason": "报告中的“信任基石”与“信任纽带”在建立关系中扮演相似角色。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "关系维护",
+      "slug": "关系持久性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "关系持久性.md",
+      "reason": "报告中的“关系维护”是实现“关系持久性”的目标，两者高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "心理支点",
+      "slug": "情感稳定性",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感稳定性.md",
+      "reason": "报告中的“心理支点”有助于提供“情感稳定性”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信息渗透力",
+      "slug": "共识性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "共识性.md",
+      "reason": "报告中“信息渗透力”的增强有助于达成“共识性”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "顾虑消除",
+      "slug": "心理不安全感",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "心理不安全感.md",
+      "reason": "报告中通过反复确认来“消除顾虑”，与“心理不安全感”的缓解相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "六个从不",
+      "slug": "六个从不",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "六个从不.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“六个从不”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感契约",
+      "slug": "情感承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感承诺.md",
+      "reason": "报告中的“情感契约”即为“情感承诺”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "稳固人际关系",
+      "slug": "长期关系",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期关系.md",
+      "reason": "报告旨在提炼关于建立“稳固人际关系”的建议，与“长期关系”概念一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为界限",
+      "slug": "行为准则",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "行为准则.md",
+      "reason": "报告中的“行为界限”是“行为准则”的一种体现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "欺骗",
+      "slug": "破坏性行为",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "破坏性行为.md",
+      "reason": "报告中提到的“欺骗”是一种“破坏性行为”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "心理创伤",
+      "slug": "情感创伤",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感创伤.md",
+      "reason": "报告中的“心理创伤”与“情感创伤”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "关系深度",
+      "slug": "关系动态",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "关系动态.md",
+      "reason": "报告中提到的“关系深度”是“关系动态”的一个重要维度。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "坦诚",
+      "slug": "坦诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "坦诚.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“坦诚”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感保障",
+      "slug": "情感保障",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感保障.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“情感保障”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永恒性",
+      "slug": "永恒性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "永恒性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“永恒性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期关系",
+      "slug": "长期关系",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期关系.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“长期关系”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感遗弃",
+      "slug": "情感遗弃",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感遗弃.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“情感遗弃”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "差异化价值",
+      "slug": "差异化价值",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "差异化价值.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“差异化价值”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "同理心",
+      "slug": "同理心",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "同理心.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“同理心”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "互动逻辑",
+      "slug": "互动逻辑",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "互动逻辑.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“互动逻辑”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期互动历史",
+      "slug": "长期互动历史",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期互动历史.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“长期互动历史”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全面承诺",
+      "slug": "全面承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "全面承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“全面承诺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性奉献",
+      "slug": "排他性奉献",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "排他性奉献.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“排他性奉献”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "参与者主动性",
+      "slug": "参与者主动性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "参与者主动性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“参与者主动性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "默契协作",
+      "slug": "默契协作",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "默契协作.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“默契协作”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为一致性",
+      "slug": "行为一致性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "行为一致性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“行为一致性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "持续性",
+      "slug": "持续性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "持续性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“持续性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "六个从不",
+      "slug": "六个从不",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "六个从不.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“六个从不”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期价值导向",
+      "slug": "长期价值导向",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期价值导向.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“长期价值导向”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感框架",
+      "slug": "情感框架",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感框架.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“情感框架”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "忠诚度.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“忠诚度”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚的六大核心防御",
+      "slug": "忠诚的六大核心防御",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "忠诚的六大核心防御.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“六大核心行为准则”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任模型",
+      "slug": "信任模型",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "信任模型.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“信任基石”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明化沟通",
+      "slug": "情感透明化沟通",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明化沟通.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“透明化情感”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "心理不安全感",
+      "slug": "心理不安全感",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "心理不安全感.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“消除对方疑虑”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "稳定性",
+      "slug": "稳定性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "稳定性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“稳固”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "安全感背书",
+      "slug": "安全感背书",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "安全感背书.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“建立安全感”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "主动情感暴露",
+      "slug": "主动情感暴露",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "主动情感暴露.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“公开化、透明化情感”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "承诺书",
+      "slug": "承诺书",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "承诺书.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“宣言”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "持久性",
+      "slug": "持久性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "持久性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“持久性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任纽带",
+      "slug": "信任纽带",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "信任纽带.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“信任基石”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感承诺",
+      "slug": "情感承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“情感契约”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性承诺",
+      "slug": "排他性承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "排他性承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“排他性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "坚定承诺",
+      "slug": "坚定承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "坚定承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“存在性承诺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感状态理解",
+      "slug": "情感状态理解",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感状态理解.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“理解”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "深度承诺",
+      "slug": "深度承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "深度承诺.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“深度”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "连续性",
+      "slug": "连续性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "连续性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“持续性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期相处经验",
+      "slug": "长期相处经验",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期相处经验.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“长期了解”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可靠性",
+      "slug": "可靠性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "可靠性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“可靠性”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明度.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“情感透明度”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "绝对忠诚",
+      "slug": "绝对忠诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "绝对忠诚.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“忠诚性承诺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感同步",
+      "slug": "情感同步",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感同步.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“理解”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感忠诚",
+      "slug": "情感忠诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感忠诚.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“忠诚度”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "空间稳定性",
+      "slug": "空间稳定性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "空间稳定性.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“物理在场”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感疏离",
+      "slug": "情感疏离",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感疏离.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“对方的犹豫不决”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "解决当前矛盾",
+      "slug": "解决当前矛盾",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "解决当前矛盾.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“打破僵局”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "预期管理",
+      "slug": "预期管理",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "预期管理.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“消除对方疑虑”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通僵局",
+      "slug": "沟通僵局",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "沟通僵局.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“僵局”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "游戏",
+      "slug": "游戏",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "游戏.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“博弈”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "破坏性行为",
+      "slug": "破坏性行为",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "破坏性行为.md",
+      "reason": "已在现有 wiki 清单中存在，与报告中的“伤害性行为”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通迟疑",
+      "slug": "沟通迟疑",
+      "kind": "concept",
+      "skip_reason": "action_unknown"
+    }
+  ],
+  "estimated_llm_calls": 2,
+  "actual_llm_calls": 3,
+  "prompt_tokens": 4877,
+  "completion_tokens": 9890,
+  "generated_pages": [
+    "wiki/sources/关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析.md"
+  ],
   "failed_pages": [],
-  "status": "planning",
-  "updated_at": "2026-06-06T19:31:22Z"
+  "status": "done",
+  "updated_at": "2026-06-06T19:31:52Z",
+  "generated_pages_count": 1
 }
