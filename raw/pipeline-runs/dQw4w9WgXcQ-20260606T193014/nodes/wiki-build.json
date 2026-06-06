@@ -2,16 +2,16 @@
   "pipeline_id": "dQw4w9WgXcQ-20260606T193014",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780774281",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-06T19:31:21Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-06T19:31:53Z",
+  "duration_s": 32,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -40,7 +40,9 @@
     "reports": [
       "raw/notebooklm-analysis/关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260606T193014/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -52,16 +54,53 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/sources/关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 2203,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "a8fb1a406d6134ce",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析.md",
+      "title": "关系承诺与忠诚度深度简报-基于-Never-Gonna-Give-You-Up-文本的分析.md",
+      "size": 5567,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 32,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-06T19:31:21Z"
+  "updated_at": "2026-06-06T19:31:53Z"
 }
